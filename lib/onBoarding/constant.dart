@@ -36,12 +36,12 @@ Widget drawerItem({
         onTap: onTap,
         leading: Icon(
           icon,
-          size: 30,
+          size: 25,
           color: primarygreen,
         ),
         title: Text(
           name,
-          style: TextStyle(fontSize: 25, color: primarygreen),
+          style: TextStyle(fontSize: 20, color: primarygreen),
         ),
       ),
     ),

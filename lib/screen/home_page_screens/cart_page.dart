@@ -24,8 +24,8 @@ class CartPage extends StatelessWidget {
         child: Row(
           children: [
             Container(
-              width: 170,
-              height: 170,
+              width: 150,
+              height: 150,
               child: CircleAvatar(
                 backgroundImage: NetworkImage(image),
               ),
@@ -38,7 +38,7 @@ class CartPage extends StatelessWidget {
               alignment: Alignment.topRight,
               children: [
                 Container(
-                  height: 200,
+                  height: 180,
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -47,13 +47,13 @@ class CartPage extends StatelessWidget {
                         name,
                         style: TextStyle(
                             color: primarygreen,
-                            fontSize: 30,
+                            fontSize: 25,
                             fontWeight: FontWeight.bold),
                       ),
                       Text(
                         "$restName",
                         style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 18,
                             fontWeight: FontWeight.bold,
                             color: primarygreen),
                       ),
@@ -63,7 +63,7 @@ class CartPage extends StatelessWidget {
                           " $price دينار",
                           style: TextStyle(
                               color: primarygreen,
-                              fontSize: 20,
+                              fontSize: 18,
                               fontWeight: FontWeight.bold),
                         ),
                       ),
@@ -71,7 +71,7 @@ class CartPage extends StatelessWidget {
                         children: [
                           Text(
                             "$quantity",
-                            style: TextStyle(fontSize: 20, color: primarygreen),
+                            style: TextStyle(fontSize: 18, color: primarygreen),
                           )
                         ],
                       )

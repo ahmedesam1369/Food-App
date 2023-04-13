@@ -73,7 +73,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
           ),
           currentIndex < allinonboardlist.length - 1
               ? Positioned(
-                  bottom: MediaQuery.of(context).size.height * 0.2,
+                  bottom: MediaQuery.of(context).size.height * 0.1,
                   width: MediaQuery.of(context).size.width,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -110,7 +110,7 @@ class _OnboardScreenState extends State<OnboardScreen> {
                   ),
                 )
               : Positioned(
-                  bottom: MediaQuery.of(context).size.height * 0.2,
+                  bottom: MediaQuery.of(context).size.height * 0.15,
                   left: MediaQuery.of(context).size.width * 0.33,
                   child: ElevatedButton(
                     onPressed: () async {

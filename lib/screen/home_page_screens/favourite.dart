@@ -8,7 +8,8 @@ class FavouritePage extends StatefulWidget {
   @override
   State<FavouritePage> createState() => _FavouritePageState();
 }
-// 
+
+//
 //
 Widget favItem({
   required BuildContext context,
@@ -28,21 +29,21 @@ Widget favItem({
       child: Row(
         children: [
           Container(
-            width: 170,
-            height: 170,
+            width: 150,
+            height: 150,
             child: CircleAvatar(
               backgroundImage: NetworkImage(image),
             ),
           ),
           SizedBox(
-            width: 20,
+            width: 15,
           ),
           Expanded(
               child: Stack(
             alignment: Alignment.topRight,
             children: [
               Container(
-                height: 200,
+                height: 180,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -51,13 +52,13 @@ Widget favItem({
                       name,
                       style: TextStyle(
                           color: primarygreen,
-                          fontSize: 30,
+                          fontSize: 25,
                           fontWeight: FontWeight.bold),
                     ),
                     Text(
                       "$restName",
                       style: TextStyle(
-                          fontSize: 20,
+                          fontSize: 18,
                           fontWeight: FontWeight.bold,
                           color: primarygreen),
                     ),
@@ -67,7 +68,7 @@ Widget favItem({
                         " $price دينار",
                         style: TextStyle(
                             color: primarygreen,
-                            fontSize: 20,
+                            fontSize: 18,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
@@ -81,7 +82,7 @@ Widget favItem({
                             label: const Text(
                               'المزيد',
                               style: TextStyle(
-                                  fontSize: 15,
+                                  fontSize: 13,
                                   color: Color(0xFF1E3A34),
                                   fontWeight: FontWeight.bold),
                             ),

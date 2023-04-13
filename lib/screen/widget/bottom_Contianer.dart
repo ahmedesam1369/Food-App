@@ -17,7 +17,7 @@ class BottomContainer extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        height: 270,
+        height: 280,
         width: 220,
         decoration: BoxDecoration(
             color: lightgreenshede1, borderRadius: BorderRadius.circular(20)),
@@ -31,14 +31,14 @@ class BottomContainer extends StatelessWidget {
             ListTile(
               leading: Text(
                 name,
-                style: TextStyle(fontSize: 18, color: primarygreen),
+                style: TextStyle(fontSize: 15, color: primarygreen),
               ),
               trailing: Directionality(
                 textDirection: TextDirection.rtl,
                 child: Text(
                   "$price دينار ",
                   style: TextStyle(
-                    fontSize: 18,
+                    fontSize: 14,
                     color: primarygreen,
                   ),
                 ),

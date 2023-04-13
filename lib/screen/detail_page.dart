@@ -163,7 +163,7 @@ class _DetailPageState extends State<DetailPage> {
                             Text(
                               "Description",
                               style: TextStyle(
-                                  fontSize: 25,
+                                  fontSize: 18,
                                   color: primarygreen,
                                   fontWeight: FontWeight.bold),
                             ),
@@ -231,7 +231,7 @@ class _DetailPageState extends State<DetailPage> {
                       widget.description,
                       style: TextStyle(
                           height: 1.5,
-                          fontSize: 15,
+                          fontSize: 12,
                           letterSpacing: 0.0,
                           color: primarygreen),
                     ),
@@ -240,7 +240,7 @@ class _DetailPageState extends State<DetailPage> {
                     ),
                     Expanded(
                       child: Container(
-                        height: 55,
+                        height: 40,
                         width: double.infinity,
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -281,7 +281,7 @@ class _DetailPageState extends State<DetailPage> {
                                       Text(
                                         "Add to Cart",
                                         style: TextStyle(
-                                            fontSize: 20, color: primarygreen),
+                                            fontSize: 15, color: primarygreen),
                                       )
                                     ],
                                   ),
